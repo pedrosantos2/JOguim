@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.tela{
+    background-color: black;
+}
+
+
+#titulo{
+    font-size: 72px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+    background-color: blue ;
+    border: 10px double black;
+    position: absolute;
+    left: 520px;
+}
+
+
+#game{
+   background-color: black;
+   width: 600px;
+   height: 400px;
+   border: 10px double blue;
+   position: fixed;
+   top: 150px;
+   left: 450px;
+   display: flex;
+   background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+
+
+
+.personagem{
+    background-color: aquamarine;
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    bottom: 0px;
+}
